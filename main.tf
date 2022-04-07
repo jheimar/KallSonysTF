@@ -1,10 +1,6 @@
 resource "azurerm_resource_group" "lab1" {
   name     = "terraform-lab1"
   location = "West Europe"
-
-  tags {
-    environment = "training"
-  }
 }
 
 resource "azurerm_storage_account" "lab1sa" {
